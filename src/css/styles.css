@@ -1,0 +1,360 @@
+body {
+  background-color: #fff;
+  width: 1280px;
+  font-family: 'Poppins', sans-serif;
+}
+
+.header-1 {
+  display: flex;
+  margin-left: 262px;
+  margin-right: 254px;
+  justify-content: space-between;
+}
+
+.header-1 img {
+  margin-top: 6px;
+  margin-bottom: 6px;
+}
+
+.header-2 {
+  display: flex;
+  border: #f0f0f0 solid 1px;
+}
+
+.oCaoselheiro {
+  margin-left: 56px;
+  margin-top: 13px;
+  margin: 13px 56px 13px 56px;
+  width: 178px;
+  height: 46px;
+}
+
+header input {
+  width: 657px;
+  height: 46px;
+  left: 290px;
+  margin-top: 13px;
+  background: #fef6e7;
+  border: 0px;
+  border-radius: 10px;
+  font-family: 'Poppins';
+}
+
+#placeholder-text {
+  padding: 10px;
+  font-size: 14px;
+  font-family: 'Poppins';
+  padding: 14px 0px 13px 24px;
+}
+
+#placeholder-text::placeholder {
+  color: #9f9f9f;
+}
+
+.bag {
+  margin: 14.62px 32px 37.75px 61px;
+}
+
+.heart {
+  position: absolute;
+  width: 32px;
+  height: 32px;
+  left: 1064px;
+  top: 53px;
+}
+
+.user-circle {
+  position: absolute;
+  width: 32px;
+  height: 32px;
+  left: 1128px;
+  top: 52px;
+}
+
+.shopping-cart {
+  position: absolute;
+  width: 32px;
+  height: 32px;
+  left: 1192px;
+  top: 52px;
+}
+
+.header-3 {
+  display: flex;
+  justify-content: space-between;
+  color: #9f9f9f;
+  font-size: 12px;
+  align-items: center;
+  background: #ffffff;
+  box-shadow: 0px 8px 16px rgba(179, 134, 0, 0.12);
+  border-radius: 0px 0px 10px 10px;
+  width: 1280px;
+  height: 40px;
+  margin-left: 0px;
+  margin-right: 0px;
+  top: 104px;
+  padding-left: 55px;
+  padding-right: 53px;
+  font-weight: 600;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  color: #9f9f9f;
+  font-size: 12px;
+  align-items: center;
+  background: #ffffff;
+  box-shadow: 0px 8px 16px rgba(179, 134, 0, 0.12);
+  border-radius: 0px 0px 10px 10px;
+  width: 1280px;
+  height: 40px;
+  margin-left: 0px;
+  margin-right: 0px;
+  top: 104px;
+  padding-left: 55px;
+  padding-right: 53px;
+  font-weight: 600;
+}
+
+nav > a {
+  text-decoration: none;
+  color: #9f9f9f;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.offers {
+  color: #fbb900;
+}
+
+.header-4 {
+  display: flex;
+  margin-right: 20px;
+}
+
+.crown-simple {
+  text-decoration: none;
+  color: #9f9f9f;
+  font-size: 12px;
+  font-weight: bold;
+  margin-left: 10px;
+}
+
+.magnifying-glass {
+  display: flex;
+  background-image: url('../assets/lupa.png');
+  background-repeat: no-repeat;
+  background-position: 600px;
+}
+
+.carousel {
+  display: flex;
+  position: relative;
+}
+
+.seta-esquerda-transparente {
+  position: absolute;
+  width: 32px;
+  height: 32px;
+  margin-left: 56px;
+  margin-top: 216px;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  transform: rotate(360deg);
+}
+
+.seta-direita-transparente {
+  position: relative;
+  width: 32px;
+  height: 32px;
+  margin-left: -57px;
+  margin-top: 216px;
+  margin-right: 0px;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  transform: rotate(360deg);
+}
+
+.subtitles {
+  font-size: 32px;
+  font-weight: 700;
+  /* line-height: 48px; */
+  color: #4d4d4d;
+  padding: 0px;
+  margin-left: 56px;
+  margin-top: 75px;
+}
+
+.image-categories {
+  display: flex;
+  justify-content: space-between;
+  padding: 24px 40px 0px 40px;
+}
+
+.captions-categories {
+  text-align: center;
+  font-size: 16px;
+  font-weight: 500;
+  color: #9f9f9f;
+  padding: 16px;
+}
+
+.images-brands {
+width: 178px;
+height: 178px;
+top: 1901px;
+margin-right: 20px;
+background: #FFFFFF;
+border: 1px solid #E5E5E5;
+box-shadow: 0px 8px 16px rgba(179, 134, 0, 0.12);
+border-radius: 20px;
+display: flex;
+align-items: center;
+justify-content: center;
+}  
+
+.brands {
+  display: flex;
+  margin-left: 56px;
+  margin-top: 32px;
+  margin-bottom: 88px;
+}
+
+.to-see-all-brands {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 30px;
+  text-align: center;
+  text-decoration-line: underline;
+  color: #FBB900;
+  margin-left: 769px;
+  margin-bottom: 41px; 
+  margin-top: 73px;
+  margin-right:56px;
+  
+ }
+.top-brands{
+  display: flex;
+  flex-direction: row;
+}
+
+.partners{
+  display: flex;
+  margin-left: 56px;
+}
+
+.box-assinatura-caoselheiro{
+width: 630px;
+height: 350px;
+left: 650px;
+top: 2167px;
+background: #FEF6E7;
+border-radius: 20px 0px 0px 20px;
+margin-left: 20px;
+
+}  
+
+.title-assinatura-caoselheiro{
+width: 199px;
+height: 96px;
+margin: 0px 391px 16px 40px;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 32px;
+line-height: 48px;
+color: #4D4D4D;
+padding-top: 46px;
+}
+
+.content-assinatura-caoselheiro{
+margin-left: 40px;
+margin-top: 48px;
+width: 295px;
+height: 72px;
+left: 690px;
+top: 2325px;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+color: #9F9F9F;
+}
+
+.buttons{
+  border: 1px;
+  border-radius: 10px;
+  color: #FFFFFF; 
+  font-family:'Poppins';
+  font-size: 16px;
+  line-height: 24px;
+  background-color: #FBB900 ;
+  width: 156px;
+  height: 48px;
+}
+
+.margin-button{
+  margin-left: 40px;
+  margin-bottom: 40px;
+  margin-top: 50px;
+}
+
+.image-assinatura-caoselheiro{
+  position:absolute; 
+  top: 1668px; 
+  left:1039px;
+}
+
+.article-content{
+width: 277px;
+height: 419px;
+margin-left: 56px;
+top: 2874px;
+margin-top: 25px;
+background: #FEF6E7;
+border-radius: 0px 0px 20px 20px;
+}
+
+.article-title{
+width: 229px;
+height: 60px;
+left: 80px;
+top: 2898px;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 30px;
+color: #4D4D4D;
+margin-bottom: 36px;
+margin-left: 24px;
+margin-right: 24px;
+}
+
+.article-text-content{
+width: 229px;
+height: 63px;
+left: 80px;
+top: 2974px;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 21px;
+color: #9F9F9F;
+margin-left: 24px;
+margin-right: 24px;
+}
+
+.margin-button-read-article{
+  margin-left: 24px;
+  margin-bottom: 24px;
+  margin-top: 24px;
+}
+
+.article{
+  display: flex;
+  flex-direction: wrap;
+}
